@@ -4,6 +4,7 @@ green() {
 }
 sudo apt update && sudo apt upgrade -y && sudo apt install curl vim wget gnupg apt-transport-https lsb-release ca-certificates socat unzip -y
 sudo apt autoremove -y
+sudo ufw disable
 sudo curl -fsSL https://get.docker.com -o get-docker.sh && sh get-docker.sh
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.15.1/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 sudo chmod +x /usr/local/bin/docker-compose
@@ -118,3 +119,13 @@ networks:
   halo_network:
 EOF
 docker-compose up -d
+
+
+
+
+Email:admin@example.com
+Password: changeme
+
+umami 默认的后台登录的用户名是 admin ，密码是 umami 。
+
+
