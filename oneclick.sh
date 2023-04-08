@@ -121,8 +121,3 @@ EOF
 docker-compose up -d
 
 
-
-#nginxproxymanager默认邮箱admin@example.com，默认密码changeme
-#umami 默认的后台登录的用户名是 admin ，密码是 umami
-
-
